@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wwm.org</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./build/css/app.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <h1>
+                <span class="w1">W</span>orld<span class="w2">W</span>ide<span class="m">M</span>usic<span class="punto">.</span>org</h1>
+            <nav class="main-nav">
+                <a href="#lineup">Line-Up</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#tickets">Tickets</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero -->
+    <div class="hero">
+        <div class="overlay">
+            <div class="container videoText-container">
+                <h2>Best World Wide Music</h2>
+                <p>Julio 2023 - Havana</p>
+            </div>
+        </div>
+        
+        <video autoplay muted loop>
+            <source src="./video/concierto.mp4" type="video/mp4">
+            <source src="./video/concierto.ogg" type="video/ogg">
+            <source src="./video/concierto.webm" type="video/webm">
+            Tu navegador no admite la etiqueta de video.
+        </video>
+    </div>
+    <!-- Concerts About -->
+    <section class="container concerts-about">
+
+        <div class="concerts-about-image">
+            <picture>
+                <source srcset="./build/img/imagen_vocalista.avif" type="img/avif">
+                <source srcset="./build/img/imagen_vocalista.webp">
+                <img loading="lazy" width="200" height="300" src="./build/img/imagen_vocalista.jpg" alt="vocalist concert image">
+            </picture>
+        </div>
+
+        <div class="concerts-about-text">
+            <h2>What WWM brings you this summer?</h2>
+            <p class="fecha">Julio 2023 - Havana, Cuba</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, non. Sunt harum voluptatum animi consectetur suscipit magnam dolor exercitationem, reprehenderit provident eveniet, accusamus excepturi delectus cumque quaerat? Dolorum, obcaecati quos.</p>
+        </div>
+    </section>
+    <!-- Line-Up -->
+    <section class="lineup" id="lineup">
+        <h3>Line Up</h3>
+        <p class="day">Friday 13</p>
+        <!-- Stage-Container -->
+        <div class="stage-container container">
+            <!-- Stage1 -->
+            <div class="stage rock bg-yellow">
+                <p class="stage-name">Rock Stage</p>
+                <ul class="sheduler">
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 | <span>KoRn</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Muse</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Breaking Benjamin</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>         
+                </ul>
+            </div>
+            <!-- Stage2 -->
+            <div class="stage edm bg-green">
+                <p class="stage-name">EDM Stage</p>
+                <ul class="sheduler">
+                    <li>
+                        24:00 | <span>Deadmau5</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Dash Berlin</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Audien</span>
+                    </li>                   
+                </ul>
+            </div>
+        </div>
+        <p class="day">Saturday 21</p>
+        <!-- Stage-Container -->
+        <div class="stage-container container">
+            <!-- Stage3 -->
+            <div class="stage rock bg-green">
+                <p class="stage-name">Rock Stage</p>
+                <ul class="sheduler">
+                    <li>
+                        24:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Killers</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deftones</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Limp Bizkit</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Stage4 -->
+            <div class="stage edm bg-yellow">
+                <p class="stage-name">Rock Stage</p>
+                <ul class="sheduler">
+                    <li>
+                        24:00 | <span>Paul Van Dyk</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Eric Prdyz</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Galery -->
+    <section class="gallery-container container" id="gallery">
+        <h3>Gallery</h3>
+
+        <ul class="gallery-images">
+
+        </ul>
+    </section>
+    <!-- Tickets -->
+    <section class="tickets-container bg-green" id="tickets">
+        <h3>Tickets</h3>
+        <div class="tickets container">
+            <div class="basic pass">
+                <p class="ticket-name">One Day Pass</p>
+                <header class="pass-header">
+                    <p>Include</p>
+                </header>
+                <div class="pass-body">
+                    <ul class="options">
+                        <li>Both Stage Access</li>
+                        <li>Drink and Food</li>
+                    </ul>
+                </div>
+                <footer class="pass-footer">
+                    <p>250$</p>
+                </footer>
+            </div>
+            <div class="premium pass">
+                <p class="ticket-name">Two Day Pass</p>
+                <header class="pass-header">
+                    <p>Include</p>
+                </header>
+                <div class="pass-body">
+                    <ul class="options">
+                        <li>Both Stage Access</li>
+                        <li>Drink and Food</li>
+                        <li>Event T-Shirt</li>
+                        <li>VIP Access</li>
+                    </ul>
+                </div>
+                <footer class="pass-footer">
+                    <p>450$</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>World Wide Music Organization. All right reserved ✓</p>
+    </footer>
+    <script src="./build/js/main.js"></script>
+</body>
+</html>
